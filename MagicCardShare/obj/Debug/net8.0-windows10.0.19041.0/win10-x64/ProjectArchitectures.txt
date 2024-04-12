@@ -1,0 +1,1 @@
+C:\Users\Erik.Bauer\source\repos\MagicCardShare\MagicCardShare\MagicCardShare.csproj;x64
