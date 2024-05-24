@@ -21,7 +21,13 @@ namespace MagicCardShare
             builder.Services.AddSingleton<MainViewModel>();
 
             builder.Services.AddSingleton<MainMenu>();
+            builder.Services.AddSingleton<MenuViewModel>();   
+            
+            builder.Services.AddSingleton<CardEditor>();
+            builder.Services.AddSingleton<CardEditorViewModel>();
+
 #endif
+         
 
             return builder.Build();
         }

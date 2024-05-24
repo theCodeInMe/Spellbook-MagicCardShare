@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:MagicCardShare.ViewModel"
+             x:DataType="viewmodel:MainViewModel"
+             x:Class="MagicCardShare.MainPage"
+             Shell.FlyoutBehavior="Disabled"
+            >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Wilkommen beim Magic Spellbook"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            
+            <Label
+                Text="Login"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level2" />
+
+            <Entry
+                x:Name="LoginName"
+                Placeholder="Benutzername"
+                Text="{Binding LoginName}"
+                />
+           
+
+            <Entry
+            x:Name="Passwort"
+             Placeholder="Passwort"
+                Text="{Binding Password}"
+               IsPassword="True" />
+            
+             <Label
+             x:Name="errorLabel"
+             FontSize="Micro"
+             Text="{Binding ErrorLabel}"
+             TextColor="Red"
+              
+                 />
+            
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                Command="{Binding LoginToCommand}"
+                HorizontalOptions="Fill"
+               />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -6,6 +6,7 @@
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(MainMenu), typeof(MainMenu));
+            Routing.RegisterRoute(nameof(CardEditor), typeof(CardEditor));
 
         }
     }

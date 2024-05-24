@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace MagicCardShare.Klassen
 {
-    internal class Benutzer
+    public class Benutzer: TableSQL
     {
-        public string SpielerID { get; private set; }
+        
         public string Benutzername { get; private set; }
         public string Passwort { get; private set; }
+
+        public Benutzer(int id,string benutzername, string passwort):base(id)
+        {
+            Benutzername = benutzername;
+            Passwort = passwort;
+        }
     }
 }

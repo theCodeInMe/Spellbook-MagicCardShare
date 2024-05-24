@@ -10,9 +10,14 @@
         
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    
     <ShellContent
-     Title="Home"
-     ContentTemplate="{DataTemplate local:MainMenu}"
-     Route="MainMenu" />
+        ContentTemplate="{DataTemplate local:MainMenu}"
+        Route="MainMenu" />
+
+    <ShellContent
+     
+        ContentTemplate="{DataTemplate local:CardEditor}"
+        Route="CardEditor" />
 
 </Shell>

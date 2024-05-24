@@ -4,7 +4,15 @@ using System.Diagnostics;
 
 namespace MagicCardShare.ViewModel
 {
-    internal class MenuViewModel : ObservableObject
+    public partial class MenuViewModel : ObservableObject
     {
+        [RelayCommand]
+        public async void GotoCardeditor()
+        {
+        
+         await Shell.Current.GoToAsync(nameof(CardEditor));
+        }
+
+
     }
 }

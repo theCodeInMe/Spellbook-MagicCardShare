@@ -67,19 +67,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="CardEditor.xaml.cs">
+	  <Compile Update="Pages\CardEditor.xaml.cs">
 	    <DependentUpon>CardEditor.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="MainPage.xaml.cs">
-	    <DependentUpon>MainPage.xaml</DependentUpon>
+	  <Compile Update="Pages\LoginPage.xaml.cs">
+	    <DependentUpon>LoginPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="CardEditor.xaml">
+	  <MauiXaml Update="Pages\CardEditor.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MainMenu.xaml">
+	  <MauiXaml Update="Pages\MainMenu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
