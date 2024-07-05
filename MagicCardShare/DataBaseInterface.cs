@@ -8,14 +8,13 @@ namespace MagicCardShare
     {
         public static string Connectionstring { get; private set; }
 
-        public static void SetConnectionstring(string user, string password,
-                                               string datasource , string initialcatalog)
+        public static void SetConnectionstring(string user, string password )
         {
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
             builder.UserID = user;
             builder.Password = password;
-            builder.DataSource = datasource;
-            builder.InitialCatalog = initialcatalog;
+            builder.DataSource =  @"localhost\SQLEXPRESS";
+            builder.InitialCatalog = "Magic";
             builder.TrustServerCertificate = true;
             Connectionstring = builder.ToString();
         }
@@ -54,5 +53,6 @@ namespace MagicCardShare
             }
             return answer;
         }
+
     }
 }

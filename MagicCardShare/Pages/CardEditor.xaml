@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MagicCardShare.CardEditor"
@@ -6,69 +6,116 @@
              xmlns:viewmodel="clr-namespace:MagicCardShare.ViewModel"
              x:DataType="viewmodel:CardEditorViewModel">
     
-    <VerticalStackLayout
-        Padding="20"
-       Spacing="10"
-      >
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+            
+        <Grid.ColumnDefinitions>
+            
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="100"/>
+
+        </Grid.ColumnDefinitions>
+        
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Create a Card!"
+            FontSize="Large"
+            
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            />
 
         <Entry
-            Text="{Binding Cardname}"
-            />
+             Text="{Binding Card.Kartenname}"
+             Grid.Column="0"
+             Grid.Row="1"/>
 
         <Picker
                x:Name="PickAbilities"
                Title="Wähle Fähigkeiten"
                ItemsSource="{Binding Faehigkeiten}"
                ItemDisplayBinding="{Binding Bezeichnung}"
-            >
-            
-        </Picker>
-        
+               Grid.Column="0"
+               Grid.Row="2"
+               />
+
+
+
         <Button
             CommandParameter="{Binding Source={x:Reference PickAbilities},Path=SelectedItem}"
             Command="{Binding AddPickToSelectionCommand}"
             Text="Fähigkeit hinzufügen"
+            Padding="10"
+            Margin="10"
+            Grid.Row="3"
             />
         
         <CollectionView
             ItemsSource="{Binding SelectedFaehigkeit}"
-             >
+            Grid.Row="4">
+            
             <CollectionView.ItemTemplate>
                 
                 <DataTemplate>
-                    <Label
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                         <Label
                         x:Name="descriptionLabel"
-                        Text="{Binding .}"/>
+                        Text="{Binding .}"
+                        Grid.Column="0"/>
+
+                    <Button
+                        Text="entfernen"
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CardEditorViewModel }},Path=deletePickSelectionCommand}"
+                        CommandParameter="{Binding .}"
+                        Grid.Column="1"/>
+                        
+                    </Grid>
+                   
 
                 </DataTemplate>
 
             </CollectionView.ItemTemplate>
-            
+
         </CollectionView>
+            
  
         <Label
             x:Name="errorLabel"
             FontSize="Small"
-            />
+            Grid.Row="8"/>
 
         <Image
             
-            Source="{Binding CardPicture}">
+            Source="{Binding Card.Kartenbild}">
         </Image>
         
         <Editor
-            
-            Text="{Binding Description}"
+            Grid.Row="5"
+            Text="{Binding Card.Kartentext}"
             />
-        
+
         <CheckBox
               x:Name="checkLegendaer"
-              IsChecked="{Binding Legendaer}"
-            />
-        
-    </VerticalStackLayout>
+              IsChecked="{Binding Card.Legendaer}"
+              Grid.Row="7" />
+
+    </Grid>
+    
 </ContentPage>

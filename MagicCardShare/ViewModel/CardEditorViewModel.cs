@@ -8,36 +8,19 @@ namespace MagicCardShare.ViewModel
 {
     public partial class CardEditorViewModel : ObservableObject
     {
+        [ObservableProperty]
+        Karte card;
       
-        [ObservableProperty]
-        private string cardname;
-
-        [ObservableProperty]
-        private string description;
-
-        [ObservableProperty]
-        private int staerke;
-
-        [ObservableProperty]
-        private int widerstandskraft;
-
-        [ObservableProperty]
-        private bool legendaer;
-
         [ObservableProperty]
         List<Faehigkeit> faehigkeiten;
 
-
-        [ObservableProperty]
-        Image cardPicture;
-
         [ObservableProperty]
         ObservableCollection<Faehigkeit> selectedFaehigkeit;
-        
 
+        
         public CardEditorViewModel()
         {
-            Karte Card = new Karte();
+            card = new Karte();
             Faehigkeiten = new List<Faehigkeit>(Faehigkeit.ShowAllFaehigkeiten());
             SelectedFaehigkeit = new ObservableCollection<Faehigkeit>();
         }
@@ -46,12 +29,22 @@ namespace MagicCardShare.ViewModel
         public void AddPickToSelection(Faehigkeit Pick)
         {
             if(Pick != null)
+            {                
+               Card.Faehigkeit.Add(Pick);
+               SelectedFaehigkeit.Add(Pick);
+            }
+        }
+
+        [RelayCommand]
+        public void deletePickSelection(Faehigkeit Pick)
+        {
+            if(SelectedFaehigkeit.Contains(Pick))
             {
-                SelectedFaehigkeit.Add(Pick);
+            Card.Faehigkeit.Remove(Pick);
+            SelectedFaehigkeit.Remove(Pick);
 
             }
             
-
         }
     }
 }

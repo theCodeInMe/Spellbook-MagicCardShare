@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MagicCardShare.Klassen
 {
-    internal class Kartenarten
+    public class Kartenarten
     {
         public int KartenartID { get; private set; }
         public string Bezeichnung { get; private set; }

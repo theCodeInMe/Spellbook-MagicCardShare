@@ -7,36 +7,42 @@ using System.Threading.Tasks;
 
 namespace MagicCardShare.Klassen
 {
-
     public enum Farbe
-    { Rot, Blau, Grün, Schwarz, Weiß, Farblos }
-     public class Karte
+    { Rot = 1, Blau, Grün, Weiß, Schwarz, Farblos }
+
+    public class Karte
     {
-        
-      
-        public int KartenID { get; private set; }
-        public string Kartenname { get; private set; }
+        public int KartenID { get; set; }
+        public string Kartenname { get; set; }
 
-        public string? Kartentext { get; private set; }
+        public string? Kartentext { get; set; }
 
-        public bool Legendaer { get; private set; }
-        public Dictionary<Farbe,int> Kartenkosten {  get; private set; } 
+        public bool Legendaer { get; set; }
 
-        public Faehigkeit Faehigkeit { get; private set; }
-        public int? Stärke { get; private set; }
-        public Image Kartenbild {  get; private set; }
+        public int? Stärke { get; set; }
 
-        public int? Widerstandskraft { get; private set; }
-        public int AnzahlGesamt { get; private set; }
+        public Image? Kartenbild { get; private set; }
+
+        public int? Widerstandskraft { get; set; }
+        public int? AnzahlGesamt { get; set; }
+        public Dictionary<Farbe, int>? Kartenkosten { get; set; }
+        public List<Faehigkeit> Faehigkeit { get; set; }
+
+        public List<Kartenarten> Kartenarten { get; set; }
+
+        public Karte()
+        {
+            Faehigkeit = new List<Faehigkeit>();
+        }
 
         public static Karte GetEmptyCard()
         {
             return new Karte();
         }
 
-        public int GetAnzahlGesamt()
-        { 
-            return this.AnzahlGesamt;
+        public override string ToString()
+        {
+            return $"{KartenID} {Kartenname}";
         }
     }
 }

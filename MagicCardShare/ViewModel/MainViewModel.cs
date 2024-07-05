@@ -23,7 +23,7 @@ namespace MagicCardShare.ViewModel
 
             if (user != null && password != null)
             {
-                DataBaseInterface.SetConnectionstring(user, Password, @"localhost\SQLEXPRESS", "Magic");
+                DataBaseInterface.SetConnectionstring(user, Password);
 
                 access = DataBaseInterface.LoginDatabase();
 
