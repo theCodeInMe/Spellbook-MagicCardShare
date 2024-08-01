@@ -3,47 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\pages\\cardeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\pages\\cardeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\viewmodel\\cardeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\viewmodel\\cardeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\viewmodel\\cardeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\databaseinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\databaseinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\klassen\\faehigkeiten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\klassen\\faehigkeiten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\pages\\cardeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\pages\\cardeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\klassen\\databaseinterakt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\klassen\\databaseinterakt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\klassen\\karte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\klassen\\karte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\klassen\\tablesql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\klassen\\tablesql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\klassen\\tablesql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\klassen\\faehigkeiten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\klassen\\faehigkeiten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\klassen\\karte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\klassen\\karte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\magiccardshare\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|c:\\users\\erik.bauer\\source\\repos\\magiccardshare\\magiccardshare\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C62DC900-22E9-4EEA-A82B-298DC90D4B59}|MagicCardShare\\MagicCardShare.csproj|solutionrelative:magiccardshare\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TableSQL.cs",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\TableSQL.cs",
               "RelativeDocumentMoniker": "MagicCardShare\\Klassen\\TableSQL.cs",
@@ -70,24 +70,23 @@
               "RelativeToolTip": "MagicCardShare\\Klassen\\TableSQL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:05:56.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T08:05:56.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Karte.cs",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\Karte.cs",
               "RelativeDocumentMoniker": "MagicCardShare\\Klassen\\Karte.cs",
               "ToolTip": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\Karte.cs",
               "RelativeToolTip": "MagicCardShare\\Klassen\\Karte.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvyAAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T05:58:26.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Pages\\LoginPage.xaml",
               "RelativeDocumentMoniker": "MagicCardShare\\Pages\\LoginPage.xaml",
@@ -95,25 +94,24 @@
               "RelativeToolTip": "MagicCardShare\\Pages\\LoginPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-24T11:51:28.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T11:51:28.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CardEditor.xaml",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Pages\\CardEditor.xaml",
               "RelativeDocumentMoniker": "MagicCardShare\\Pages\\CardEditor.xaml",
               "ToolTip": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Pages\\CardEditor.xaml",
               "RelativeToolTip": "MagicCardShare\\Pages\\CardEditor.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-24T11:50:52.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MagicCardShare\\ViewModel\\MainViewModel.cs",
@@ -121,20 +119,20 @@
               "RelativeToolTip": "MagicCardShare\\ViewModel\\MainViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T11:51:20.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T11:51:20.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Faehigkeiten.cs",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\Faehigkeiten.cs",
               "RelativeDocumentMoniker": "MagicCardShare\\Klassen\\Faehigkeiten.cs",
               "ToolTip": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\Faehigkeiten.cs",
               "RelativeToolTip": "MagicCardShare\\Klassen\\Faehigkeiten.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvxEAAAAMAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T06:23:01.352Z"
+              "WhenOpened": "2024-04-29T06:23:01.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -156,33 +154,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataBaseInterface.cs",
-              "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\DataBaseInterface.cs",
-              "RelativeDocumentMoniker": "MagicCardShare\\DataBaseInterface.cs",
-              "ToolTip": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\DataBaseInterface.cs",
-              "RelativeToolTip": "MagicCardShare\\DataBaseInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "DataBaseInterakt.cs",
+              "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\DataBaseInterakt.cs",
+              "RelativeDocumentMoniker": "MagicCardShare\\Klassen\\DataBaseInterakt.cs",
+              "ToolTip": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\Klassen\\DataBaseInterakt.cs",
+              "RelativeToolTip": "MagicCardShare\\Klassen\\DataBaseInterakt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T08:25:26.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CardEditorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\ViewModel\\CardEditorViewModel.cs",
               "RelativeDocumentMoniker": "MagicCardShare\\ViewModel\\CardEditorViewModel.cs",
               "ToolTip": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\ViewModel\\CardEditorViewModel.cs",
               "RelativeToolTip": "MagicCardShare\\ViewModel\\CardEditorViewModel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCwAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwC8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T10:16:40.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Erik.Bauer\\source\\repos\\MagicCardShare\\MagicCardShare\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "MagicCardShare\\AppShell.xaml.cs",

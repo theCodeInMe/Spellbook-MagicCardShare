@@ -1,12 +1,9 @@
-﻿using Microsoft.Data.SqlClient;
-using System.Collections.ObjectModel;
-using System.Data;
-using System.Data.Common;
+﻿using System.Data;
 
 
 namespace MagicCardShare.Klassen
 {
-    public class Faehigkeit :TableSQL
+    public class Faehigkeit : TableSQL
     {
         
         public string Bezeichnung { get; private set; }
@@ -22,7 +19,7 @@ namespace MagicCardShare.Klassen
 
         public static List<Faehigkeit> ShowAllFaehigkeiten()
         {
-            DataTable abilityTags = DataBaseInterface.SelectFrom("Faehigkeit", "*");
+            DataTable abilityTags = DataBaseInterakt.SelectFrom("Faehigkeit", "*");
 
             List<Faehigkeit> result = new List<Faehigkeit>();
 

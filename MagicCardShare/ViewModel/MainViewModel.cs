@@ -23,9 +23,9 @@ namespace MagicCardShare.ViewModel
 
             if (user != null && password != null)
             {
-                DataBaseInterface.SetConnectionstring(user, Password);
+                DataBaseInterakt.SetConnectionstring(user, Password);
 
-                access = DataBaseInterface.LoginDatabase();
+                access = DataBaseInterakt.LoginDatabase();
 
                 if (access == true)
                 {

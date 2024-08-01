@@ -1,10 +1,9 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
-using System.Data.Common;
 
 namespace MagicCardShare
 {
-    public static class DataBaseInterface
+    public static class DataBaseInterakt
     {
         public static string Connectionstring { get; private set; }
 
