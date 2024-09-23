@@ -1,121 +1,117 @@
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MagicCardShare.CardEditor"
-             Title="KarteEditor"
-             xmlns:viewmodel="clr-namespace:MagicCardShare.ViewModel"
-             x:DataType="viewmodel:CardEditorViewModel">
-    
+<ContentPage
+    x:Class="MagicCardShare.CardEditor"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodel="clr-namespace:MagicCardShare.ViewModel"
+    Title="KarteEditor"
+    x:DataType="viewmodel:CardEditorViewModel">
+
     <Grid Padding="10">
         <Grid.RowDefinitions>
-            
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+
+            <RowDefinition Height="100" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+
 
         </Grid.RowDefinitions>
-            
+
         <Grid.ColumnDefinitions>
-            
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="100"/>
+
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="100" />
 
         </Grid.ColumnDefinitions>
-        
-        <Label 
-            Text="Create a Card!"
-            FontSize="Large"
-            
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
+
+        <Label
             Grid.Column="0"
             Grid.ColumnSpan="3"
-            />
+            FontSize="Large"
+            HorizontalOptions="Center"
+            Text="Create a Card!"
+            VerticalOptions="Center" />
 
         <Entry
-             Text="{Binding Card.Kartenname}"
-             Grid.Column="0"
-             Grid.Row="1"/>
-
-        <Picker
-               x:Name="PickAbilities"
-               Title="Wähle Fähigkeiten"
-               ItemsSource="{Binding Faehigkeiten}"
-               ItemDisplayBinding="{Binding Bezeichnung}"
-               Grid.Column="0"
-               Grid.Row="2"
-               />
-
-
-
-        <Button
-            CommandParameter="{Binding Source={x:Reference PickAbilities},Path=SelectedItem}"
-            Command="{Binding AddPickToSelectionCommand}"
-            Text="Fähigkeit hinzufügen"
-            Padding="10"
-            Margin="10"
-            Grid.Row="3"
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="{Binding Card.Kartenname}"
             />
-        
-        <CollectionView
-            ItemsSource="{Binding SelectedFaehigkeit}"
-            Grid.Row="4">
-            
-            <CollectionView.ItemTemplate>
-                
-                <DataTemplate>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                         <Label
-                        x:Name="descriptionLabel"
-                        Text="{Binding .}"
-                        Grid.Column="0"/>
 
-                    <Button
-                        Text="entfernen"
-                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CardEditorViewModel }},Path=deletePickSelectionCommand}"
-                        CommandParameter="{Binding .}"
-                        Grid.Column="1"/>
+
+
+
+        <VerticalStackLayout
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="5">
+            
+            <Picker
+                x:Name="PickAbilities"
+                Title="Wähle Fähigkeiten"
+                Margin="5"
+                ItemDisplayBinding="{Binding Bezeichnung}"
+                ItemsSource="{Binding Faehigkeiten}" />
+
+
+
+            <Button
+                Margin="10"
+                Padding="10"
+                Command="{Binding AddPickToSelectionCommand}"
+                CommandParameter="{Binding Source={x:Reference PickAbilities}, Path=SelectedItem}"
+                Text="Fähigkeit hinzufügen" />
+
+            <CollectionView Margin="5" ItemsSource="{Binding SelectedFaehigkeit}">
+
+                <CollectionView.ItemTemplate>
+
+                    <DataTemplate>
                         
-                    </Grid>
-                   
+                        <HorizontalStackLayout >
 
-                </DataTemplate>
+                            <Label
+                                x:Name="descriptionLabel"
+                                Grid.Column="0"
+                                Text="{Binding .}" />
 
-            </CollectionView.ItemTemplate>
+                            <Button
+                                Grid.Column="1"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CardEditorViewModel}}, Path=deletePickSelectionCommand}"
+                                CommandParameter="{Binding .}"
+                                Text="entfernen" />
 
-        </CollectionView>
-            
- 
+                        </HorizontalStackLayout>
+
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+            <CheckBox x:Name="checkLegendaer" IsChecked="{Binding Card.Legendaer}" />
+
+
+        </VerticalStackLayout>
+
+
         <Label
             x:Name="errorLabel"
-            FontSize="Small"
-            Grid.Row="8"/>
+            Grid.Row="8"
+            FontSize="Small" />
 
         <Image
-            
-            Source="{Binding Card.Kartenbild}">
-        </Image>
-        
-        <Editor
-            Grid.Row="5"
-            Text="{Binding Card.Kartentext}"
-            />
+            Grid.Row="0"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Source="{Binding Card.Kartenbild}" />
 
-        <CheckBox
-              x:Name="checkLegendaer"
-              IsChecked="{Binding Card.Legendaer}"
-              Grid.Row="7" />
+        <Editor Grid.Row="5" Text="{Binding Card.Kartentext}" />
+
 
     </Grid>
-    
+
 </ContentPage>

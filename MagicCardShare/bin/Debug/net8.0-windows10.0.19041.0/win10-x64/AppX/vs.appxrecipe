@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Erik.Bauer\source\repos\MagicCardShare\MagicCardShare\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-30T08:10:00.912</Modified>
+      <Modified>2024-09-16T12:26:16.859</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Erik.Bauer\source\repos\MagicCardShare\MagicCardShare\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MagicCardShare.dll">
       <PackagePath>MagicCardShare.dll</PackagePath>
-      <Modified>2024-07-30T08:07:37.791</Modified>
+      <Modified>2024-09-16T12:26:16.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Erik.Bauer\source\repos\MagicCardShare\MagicCardShare\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MagicCardShare.exe</PackagePath>
-      <Modified>2024-07-30T08:07:37.847</Modified>
+      <Modified>2024-09-16T12:26:16.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Erik.Bauer\source\repos\MagicCardShare\MagicCardShare\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicCardShare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fe41881487fd3833a3ac7d67bde24147c8202666")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a8750e3ee816dccd35b207c7486d4d59ab5f8247")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicCardShare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicCardShare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
